@@ -1,0 +1,90 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.mainContainer {
+background-color: white(0, 247, 255);
+display: grid;
+width: 75vw;
+height: 75vh;
+justify-content: center;
+align-content: center;
+align-items: center;
+grid-template-columns: 35% 35%;
+grid-template-rows: repeat(4, 15%);
+column-gap: 5px;
+
+
+
+
+
+}
+
+
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: navy 3px solid;
+    border-bottom: navy 3px solid;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 20%;
+    grid-row-start: 3;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.submit{
+    grid-row-start: 4;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid navy 3px;
+    padding-bottom: 42px;
+    margin-top: 9px;
+}
+
+
+
+.submit-button{
+    height: 20%;
+    width: 75px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+
+.question {
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    align-self: auto;
+    grid-column-start: 2;
+    height: 100%;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    overflow: auto;
+    border-left: solid navy 3px;
+    padding-left: 10px;
+    margin-left: 7px;
+    
+}
